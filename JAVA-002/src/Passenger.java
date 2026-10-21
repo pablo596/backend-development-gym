@@ -16,7 +16,7 @@ public class Passenger {
     }
 
     public void redeemMiles (int amount){
-        if (amount > 0 && amount < miles){
+        if (amount > 0 && amount <= miles){
             miles = miles-amount;
         }
     }
