@@ -1,22 +1,22 @@
 public class Profile {
-    private String nombre;
-    private int years_expertise;
-    private double hours_study;
-    private boolean is_learning_be;
+    private String name;
+    private int yearsOfExperience;
+    private double dailyStudyHours;
+    private boolean learningBackend;
 
-    public Profile(String nombre, int years_expertise, double hours_study, boolean is_learning_be) {
-        this.nombre = nombre;
-        this.years_expertise = years_expertise;
-        this.hours_study = hours_study;
-        this.is_learning_be = is_learning_be;
+    public Profile(String name, int yearsOfExperience, double dailyStudyHours, boolean learningBackend) {
+        this.name = name;
+        this.yearsOfExperience = yearsOfExperience;
+        this.dailyStudyHours = dailyStudyHours;
+        this.learningBackend = learningBackend;
     }
 
     public void showInformaction (){
         System.out.println("=== DEVELOPER PROFILE ===\n" +
-                "Name: "+this.nombre+"\n" +
-                "Experience: "+this.years_expertise+" years\n" +
-                "Daily study: "+this.hours_study+" hours\n" +
-                "Learning Backend: "+this.is_learning_be+"\n" +
+                "Name: "+this.name+"\n" +
+                "Experience: "+this.yearsOfExperience+" years\n" +
+                "Daily study: "+this.dailyStudyHours+" hours\n" +
+                "Learning Backend: "+this.learningBackend+"\n" +
                 "=========================");
     }
 }
