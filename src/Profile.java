@@ -11,7 +11,7 @@ public class Profile {
         this.learningBackend = learningBackend;
     }
 
-    public void showInformaction (){
+    public void showInformation (){
         System.out.println("=== DEVELOPER PROFILE ===\n" +
                 "Name: "+this.name+"\n" +
                 "Experience: "+this.yearsOfExperience+" years\n" +
